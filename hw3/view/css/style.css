@@ -1,0 +1,159 @@
+body {
+  background-color: #d0f1aa;
+}
+
+header {
+  background-color: #7bbe72;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #315885;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav a {
+  color: #d5f7d3;
+}
+
+.nav a:hover {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #7bbe72;
+  margin: 0;
+  color: #d5f7d3;
+}
+
+.text-muted {
+  color: #d5f7d3;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+.article {
+  word-wrap: normal;
+  background-color: #ddf3c5;
+  border-radius: 8px;
+  padding-left: 40px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  color: #3c492c;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #3c492c;
+}
+
+.article hr {
+  margin: 0;
+  margin-top: 10px;
+}
+
+form {
+  width: 500px;
+  min-height: 450px;
+  text-align: center;
+  background-color: #ddf3c5;
+  border-radius: 16px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+h3 {
+  margin: 25px;
+  color: #3c492c;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px;
+}
+
+.string {
+  width: 400px;
+  border-color: #b5c4b3;
+  padding-left: 10px;
+  color: #3c492c;
+  background-color: #ebf3eb;
+  border-radius: 4px;
+}
+
+.list {
+  margin-left: 20px;
+  color: #3c492c;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  background-color: #7bbe72;
+  color: #d5f7d3;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #639e5b;
+}
+
+.offset {
+  margin: 7px;
+  display: block;
+}
+
+.homerun {
+  margin: 15px 0px;
+  display: block;
+}
+
+.err {
+  color: #f8aaaa;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.error404 {
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+}
+
+.dark-green a {
+  color: #3c492c;
+}
+
+.dark-green a:hover {
+  color: #a1c279;
+}
+/*# sourceMappingURL=style.css.map */
